@@ -1,0 +1,53 @@
+{
+    "name": "datatables.net-staterestore-se",
+    "description": "StateRestore for DataTables with styling for [SemanticUI](https://semantic-ui.com/)",
+    "main": "js/stateRestore.semanticui.js",
+    "style": "css/stateRestore.semanticui.css",
+    "types": "./types/stateRestore.semanticui.d.ts",
+    "version": "null",
+    "files": [
+        "css/**/*.css",
+        "js/**/*.js",
+        "types/**/*.d.ts"
+    ],
+    "keywords": [
+        "StateRestore",
+ "stateSave",
+ "state",
+"reload",
+        "Semantic",
+ "SemanticUI",
+ "Semantic UI",
+        "Datatables",
+        "jQuery",
+        "table",
+        "filter",
+        "sort"
+    ],
+    "dependencies": {
+        "datatables.net-staterestore": ">=null",
+        "datatables.net-se": ">=1.11.3",
+        "jquery": ">=1.7"
+    },
+    "moduleType": [
+        "globals",
+        "amd",
+        "node"
+    ],
+    "ignore": [
+        "composer.json",
+        "datatables.json",
+        "package.json"
+    ],
+    "author": {
+        "name": "SpryMedia Ltd",
+        "url": "http://datatables.net"
+    },
+    "homepage": "https://datatables.net",
+    "bugs": "https://datatables.net/forums",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DataTables/Dist-DataTables-StateRestore-SemanticUI.git"
+    }
+}
