@@ -25,7 +25,7 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-staterestore": ">=null",
+        "datatables.net-staterestore": ">=1.0.1",
         "datatables.net-se": ">=1.11.3",
         "jquery": ">=1.7"
     },
