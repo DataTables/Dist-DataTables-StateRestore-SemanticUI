@@ -4,7 +4,7 @@
     "main": "js/stateRestore.semanticui.js",
     "style": "css/stateRestore.semanticui.css",
     "types": "./types/stateRestore.semanticui.d.ts",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
