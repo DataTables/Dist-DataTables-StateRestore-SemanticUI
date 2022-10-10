@@ -2,12 +2,14 @@
     "name": "datatables.net-staterestore-se",
     "description": "StateRestore for DataTables with styling for [SemanticUI](https://semantic-ui.com/)",
     "main": "js/stateRestore.semanticui.js",
+    "module": "js/stateRestore.semanticui.mjs",
     "style": "css/stateRestore.semanticui.css",
     "types": "./types/stateRestore.semanticui.d.ts",
     "version": "1.1.1",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
+        "js/**/*.mjs",
         "types/**/*.d.ts"
     ],
     "keywords": [
