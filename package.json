@@ -5,7 +5,7 @@
     "module": "js/stateRestore.semanticui.mjs",
     "style": "css/stateRestore.semanticui.css",
     "types": "./types/types.d.ts",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
