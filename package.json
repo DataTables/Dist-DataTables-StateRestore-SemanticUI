@@ -4,7 +4,7 @@
     "main": "js/stateRestore.semanticui.js",
     "module": "js/stateRestore.semanticui.mjs",
     "style": "css/stateRestore.semanticui.css",
-    "types": "./types/types.d.ts",
+    "types": "./types/stateRestore.semanticui.d.ts",
     "version": "1.2.2",
     "files": [
         "css/**/*.css",
@@ -14,12 +14,12 @@
     ],
     "keywords": [
         "StateRestore",
-        "stateSave",
-        "state",
-        "reload",
+ "stateSave",
+ "state",
+"reload",
         "Semantic",
-        "SemanticUI",
-        "Semantic UI",
+ "SemanticUI",
+ "Semantic UI",
         "Datatables",
         "jQuery",
         "table",
@@ -27,8 +27,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-staterestore": ">=1.1.1",
-        "datatables.net-se": ">=1.12.1",
+        "datatables.net-staterestore": ">=1.2.2",
+        "datatables.net-se": ">=1.13.4",
         "jquery": ">=1.7"
     },
     "moduleType": [
