@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-staterestore-se",
     "description": "StateRestore for DataTables with styling for [SemanticUI](https://semantic-ui.com/)",
-    "main": "js/stateRestore.semanticui.js",
-    "module": "js/stateRestore.semanticui.mjs",
-    "style": "css/stateRestore.semanticui.css",
+    "main": "./js/stateRestore.semanticui.js",
+    "module": "./js/stateRestore.semanticui.mjs",
+    "style": "./css/stateRestore.semanticui.css",
     "types": "./types/stateRestore.semanticui.d.ts",
     "version": "2.0.1",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "StateRestore",
@@ -39,5 +38,24 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/DataTables/StateRestore.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/stateRestore.semanticui.d.ts",
+            "import": "./js/stateRestore.semanticui.mjs",
+            "default": "./js/stateRestore.semanticui.mjs",
+            "require": "./js/stateRestore.semanticui.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/stateRestore.semanticui.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }
