@@ -42,9 +42,10 @@
     "exports": {
         ".": {
             "types": "./types/stateRestore.semanticui.d.ts",
+            "style": "./css/stateRestore.semanticui.css",
             "import": "./js/stateRestore.semanticui.mjs",
-            "default": "./js/stateRestore.semanticui.mjs",
-            "require": "./js/stateRestore.semanticui.js"
+            "require": "./js/stateRestore.semanticui.js",
+            "default": "./js/stateRestore.semanticui.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
