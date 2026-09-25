@@ -5,7 +5,7 @@
     "module": "./js/stateRestore.semanticui.mjs",
     "style": "./css/stateRestore.semanticui.css",
     "types": "./types/stateRestore.semanticui.d.ts",
-    "version": "2.1.0",
+    "version": "2.1.1",
     "files": [
         "js",
         "css",
@@ -25,7 +25,7 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-staterestore": "2.1.0",
+        "datatables.net-staterestore": "2.1.1",
         "datatables.net-se": "^3.1"
     },
     "author": {
