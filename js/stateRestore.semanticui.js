@@ -1,4 +1,4 @@
-/*! StateRestore Semantic UI styling 2.1.1 for DataTables
+/*! StateRestore Semantic UI styling 2.2.0 for DataTables
  * Copyright (c) SpryMedia Ltd - datatables.net/license
  */
 
